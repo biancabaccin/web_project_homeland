@@ -1,9 +1,12 @@
 .header {
-  align-content: center;
-  text-align: center;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .header__logo {
+  align-self: center;
   width: 254px;
   height: 70px;
   padding-top: 34px;
