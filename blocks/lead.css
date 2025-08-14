@@ -32,6 +32,7 @@
 @media screen and (max-width: 768px) {
   .lead {
     width: 100%;
+    height: auto;
   }
 
   .lead__title {
@@ -49,5 +50,32 @@
     width: 100%;
     height: auto;
     margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .lead__title {
+    width: 228px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .lead__subtitle {
+    width: 288px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 1, 25;
+    margin-top: 16px;
+  }
+
+  .lead__image {
+    margin-top: 40px;
   }
 }

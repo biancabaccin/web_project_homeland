@@ -42,4 +42,67 @@
 }
 
 @media screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+    height: 490px;
+    margin: 90px 0 0;
+  }
+
+  .intro__title {
+    width: 707px;
+    height: 98px;
+    font-size: 45px;
+    line-height: 1.089;
+  }
+
+  .intro__quote {
+    width: 720px;
+    height: 102px;
+    margin-top: 50px;
+  }
+
+  .intro__author {
+    width: 720px;
+    height: 34px;
+    margin-top: 0;
+  }
+
+  .intro__description {
+    width: 720px;
+    height: 182px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+    height: 878px;
+    margin-top: 64px;
+  }
+
+  .intro__title {
+    width: 288px;
+    height: 140px;
+    font-size: 32px;
+    line-height: 1.094;
+  }
+
+  .intro__quote {
+    width: 288px;
+    height: 180px;
+    line-height: 1.25;
+    margin: 40px 0 0;
+  }
+
+  .intro__author {
+    width: 288px;
+    height: 34px;
+    margin: 10px 0 0;
+  }
+
+  .intro__description {
+    width: 288px;
+    height: 442px;
+    margin: 32px 0 0;
+  }
 }

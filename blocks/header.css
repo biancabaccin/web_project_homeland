@@ -11,8 +11,15 @@
 
 @media screen and (max-width: 768px) {
   .header__logo {
-    width: 254px;
     height: 66px;
     padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 188px;
+    height: 52px;
+    padding-top: 20px;
   }
 }
