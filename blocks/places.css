@@ -219,6 +219,7 @@
   .place__item {
     max-width: 538px;
     max-height: 538px;
+    box-shadow: none;
   }
 
   .place__button {
@@ -255,7 +256,6 @@
   .place__item {
     max-width: 320px;
     max-height: 320px;
-    box-shadow: none;
   }
 
   .place__button {
