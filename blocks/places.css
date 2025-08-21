@@ -8,7 +8,7 @@
   margin-top: 92px;
 }
 
-.place {
+.places__place {
   width: 100%;
   display: grid;
   grid-template-areas:
@@ -18,7 +18,7 @@
   gap: 48px 40px;
 }
 
-.place__title {
+.places__title {
   grid-area: title;
   max-width: 460px;
   width: 100%;
@@ -28,7 +28,7 @@
   margin: 0;
 }
 
-.place__item {
+.places__item {
   grid-area: image;
   max-width: 460px;
   max-height: 460px;
@@ -39,23 +39,23 @@
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 
-.place__item:hover {
+.places__item:hover {
   background: #00000080;
 }
 
-.place__item img:hover {
+.places__item img:hover {
   opacity: 0.7;
   cursor: pointer;
 }
 
-.place__image {
+.places__image {
   object-fit: cover;
   object-position: bottom;
   width: 100%;
   height: 100%;
 }
 
-.place__button {
+.places__button {
   grid-area: button;
   max-width: 356.08px;
   width: 100%;
@@ -73,7 +73,7 @@
   text-decoration: none;
 }
 
-.place__button:hover {
+.places__button:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
@@ -81,14 +81,14 @@
   );
 }
 
-.place__artist {
+.places__artist {
   grid-area: artist;
   max-width: 456px;
   width: 100%;
   align-content: flex-end;
 }
 
-.place__artist-title {
+.places__artist-title {
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
@@ -98,14 +98,14 @@
   margin: 0 0 8px 0;
 }
 
-.place__artist-name {
+.places__artist-name {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   margin: 0;
 }
 
-.place__description {
+.places__description {
   grid-area: description;
   max-width: 484px;
   width: 100%;
@@ -114,7 +114,7 @@
   gap: 25px;
 }
 
-.place__paragraph {
+.places__paragraph {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
@@ -129,63 +129,63 @@
     margin-top: 88px;
   }
 
-  .place {
+  .places__place {
     column-gap: 28px;
     grid-template-rows: auto auto 1fr;
   }
 
-  .place__title {
+  .places__title {
     max-width: 340px;
     width: 100%;
     font-size: 42px;
     line-height: 1.095;
   }
 
-  .place__item {
+  .places__item {
     max-width: 340px;
     width: 100%;
     max-height: 340px;
   }
 
-  .place__button {
+  .places__button {
     max-width: 355px;
     width: 100%;
   }
 
-  .place__artist {
+  .places__artist {
     max-width: 352px;
     width: 100%;
   }
 
-  .place__description {
+  .places__description {
     max-width: 352px;
     width: 100%;
   }
 
-  .place__paragraph {
+  .places__paragraph {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 685px) {
-  .place {
+  .places__place {
     grid-template-columns: 1fr 1fr;
     column-gap: 16px;
   }
 
-  .place__button {
+  .places__button {
     font-size: 15px;
     align-content: center;
   }
 }
 
 @media screen and (max-width: 580px) {
-  .place__item {
+  .places__item {
     max-width: 270px;
     max-height: 270px;
   }
 
-  .place__button {
+  .places__button {
     font-size: 14px;
     align-content: center;
   }
@@ -197,7 +197,7 @@
     margin-top: 62px;
   }
 
-  .place {
+  .places__place {
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
@@ -209,20 +209,20 @@
     justify-items: center;
   }
 
-  .place__title,
-  .place__artist,
-  .place__description {
+  .places__title,
+  .places__artist,
+  .places__description {
     max-width: 538px;
     width: 100%;
   }
 
-  .place__item {
+  .places__item {
     max-width: 538px;
     max-height: 538px;
     box-shadow: none;
   }
 
-  .place__button {
+  .places__button {
     max-width: 355px;
     width: 100%;
     font-size: 16px;
@@ -237,7 +237,7 @@
     width: 100%;
   }
 
-  .place {
+  .places__place {
     grid-template-areas:
       "title"
       "artist"
@@ -246,19 +246,19 @@
       "button";
   }
 
-  .place__title {
+  .places__title {
     max-width: 288px;
     width: 100%;
     font-size: 32px;
     line-height: 1.093;
   }
 
-  .place__item {
+  .places__item {
     max-width: 320px;
     max-height: 320px;
   }
 
-  .place__button {
+  .places__button {
     max-width: 288px;
     width: 100%;
     min-height: 48px;
@@ -267,12 +267,12 @@
     margin: 0;
   }
 
-  .place__artist {
+  .places__artist {
     max-width: 288px;
     width: 100%;
   }
 
-  .place__description {
+  .places__description {
     max-width: 288px;
     width: 100%;
   }
